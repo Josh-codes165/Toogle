@@ -1,4 +1,4 @@
-:root {
+/* :root {
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
@@ -65,4 +65,30 @@ button:focus-visible {
   button {
     background-color: #f9f9f9;
   }
+} */
+
+
+
+.light {
+  background-color: white;
+  color: black;
+  min-height: 100vh;
+  padding: 20px;
+  transition: all 0.3s ease;
+}
+
+.dark {
+  background-color: #121212;
+  color: white;
+  min-height: 100vh;
+  padding: 20px;
+  transition: all 0.3s ease;
+}
+
+button {
+  padding: 10px 16px;
+  border: none;
+  cursor: pointer;
+  border-radius: 6px;
+  margin-top: 20px;
 }
